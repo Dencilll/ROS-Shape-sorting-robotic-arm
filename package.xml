@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+
+    <name>shape_sorting_robot</name>
+    <version>0.0.1</version>
+
+    <description>
+        ROS-based robotic arm shape sorting system
+        using URDF, joint control and RViz.
+    </description>
+
+    <maintainer email="student@example.com">
+        Dencil Sebastian
+    </maintainer>
+
+    <license>MIT</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>rospy</depend>
+    <depend>sensor_msgs</depend>
+    <depend>visualization_msgs</depend>
+    <depend>robot_state_publisher</depend>
+
+    <export>
+    </export>
+
+</package>
